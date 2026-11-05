@@ -1,103 +1,200 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="2600" viewBox="0 0 1480 2600">
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#426d60"/></marker></defs>
-<rect width="100%" height="100%" fill="#f4f7f3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="2080" height="1580" viewBox="0 0 2080 1580" role="img" aria-labelledby="title desc">
+<title id="title">招聘需求澄清与面试协同：不引入AI的现状流程</title>
+<desc id="desc">从左至右为需求澄清、面试协同、反馈闭环。六个菱形判断均有是与否分支，未通过时回到人工补充或协调。</desc>
+<defs><marker id="mainArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3c7770"/></marker>
+<marker id="returnArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#c87554"/></marker></defs>
+<rect width="2080" height="1580" fill="#edf2f5"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
-<text x="60" y="64" font-size="29" fill="#193e32" font-weight="bold">招聘需求澄清与面试协同</text>
-<text x="60" y="100" font-size="17" fill="#5c7468">现状业务流程 · 不引入 AI · 含判断、退回与变更分支</text>
-<text x="60" y="130" font-size="13" fill="#718278">依据：FDE 实验室六角色合成访谈；非企业真实制度。矩形＝人工处理，菱形＝判断。</text>
-<rect x="420" y="180" width="440" height="80" rx="25" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="216" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">开始：客户提出岗位需求</text>
-<text x="640" y="242" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">客户 / 招聘顾问</text>
-<rect x="420" y="325" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="361" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">访谈并整理岗位需求简报</text>
-<text x="640" y="387" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">林亦舟 · 招聘与用工服务顾问</text>
-<polyline points="640,260 640,325" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<polygon points="640,457 862,510 640,563 418,510" fill="#fff5da" stroke="#b59c57" stroke-width="1.5"/>
-<text x="640" y="506" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">信息完整，且必备 / 偏好明确？</text>
-<text x="640" y="532" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">判断 1 · 招聘顾问</text>
-<polyline points="640,405 640,457" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="420" y="615" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="651" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">客户确认需求、用途和版本</text>
-<text x="640" y="677" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">叶书 · 客户岗位负责人</text>
-<polyline points="640,563 640,615" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="663" y="587" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">是</text>
-<polygon points="640,747 862,800 640,853 418,800" fill="#fff5da" stroke="#b59c57" stroke-width="1.5"/>
-<text x="640" y="796" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">客户已正式确认？</text>
-<text x="640" y="822" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">判断 2 · 客户岗位负责人</text>
-<polyline points="640,695 640,747" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="420" y="905" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="941" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">按确认版本整理候选材料</text>
-<text x="640" y="967" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">招聘顾问 · 人工处理</text>
-<polyline points="640,853 640,905" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="663" y="877" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">是</text>
-<polygon points="640,1037 862,1090 640,1143 418,1090" fill="#fff5da" stroke="#b59c57" stroke-width="1.5"/>
-<text x="640" y="1086" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">需求是否发生变更？</text>
-<text x="640" y="1112" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">判断 3 · 招聘顾问 / 客户</text>
-<polyline points="640,985 640,1037" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="420" y="1195" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="1231" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">收集时间并拟定面试安排</text>
-<text x="640" y="1257" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">唐映秋 · 排期与培训协调员</text>
-<polyline points="640,1143 640,1195" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="663" y="1167" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">否</text>
-<polygon points="640,1327 862,1380 640,1433 418,1380" fill="#fff5da" stroke="#b59c57" stroke-width="1.5"/>
-<text x="640" y="1376" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">排期是否有冲突？</text>
-<text x="640" y="1402" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">判断 4 · 协调员</text>
-<polyline points="640,1275 640,1327" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="420" y="1485" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="1521" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">人工确认安排并组织面试</text>
-<text x="640" y="1547" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">协调员 / 面试官</text>
-<polyline points="640,1433 640,1485" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="663" y="1457" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">否</text>
-<rect x="420" y="1630" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="1666" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">填写面试反馈与证据位置</text>
-<text x="640" y="1692" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">面试官</text>
-<polyline points="640,1565 640,1630" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<polygon points="640,1762 862,1815 640,1868 418,1815" fill="#fff5da" stroke="#b59c57" stroke-width="1.5"/>
-<text x="640" y="1811" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">反馈完整且版本正确？</text>
-<text x="640" y="1837" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">判断 5 · 质量复核</text>
-<polyline points="640,1710 640,1762" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="420" y="1920" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="1956" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">质量与客户复核</text>
-<text x="640" y="1982" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">傅景 / 叶书</text>
-<polyline points="640,1868 640,1920" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="663" y="1892" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">是</text>
-<polygon points="640,2052 862,2105 640,2158 418,2105" fill="#fff5da" stroke="#b59c57" stroke-width="1.5"/>
-<text x="640" y="2101" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">复核通过？</text>
-<text x="640" y="2127" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">判断 6 · 质量与客户</text>
-<polyline points="640,2000 640,2052" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="420" y="2210" width="440" height="80" rx="8" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="2246" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">归档：版本、反馈与交接责任</text>
-<text x="640" y="2272" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">协调员 / 资料负责人</text>
-<polyline points="640,2158 640,2210" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="663" y="2182" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">是</text>
-<rect x="420" y="2355" width="440" height="80" rx="25" fill="#ffffff" stroke="#afc5b5" stroke-width="1.5"/>
-<text x="640" y="2391" text-anchor="middle" font-size="17" fill="#244d3d" font-weight="bold">结束：资料交接完成</text>
-<text x="640" y="2417" text-anchor="middle" font-size="12" fill="#728477" font-weight="normal">录用由人工另行决策</text>
-<polyline points="640,2290 640,2355" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<polyline points="862,510 1010,510 1010,365 860,365" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="900" y="501" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">否</text>
-<rect x="865" y="419" width="290" height="27" fill="#f4f7f3"/>
-<text x="1007" y="437" text-anchor="middle" font-size="12" fill="#84682c" font-weight="normal">追问缺项，明确条件</text>
-<polyline points="862,800 1130,800 1130,365 860,365" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="900" y="791" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">否</text>
-<rect x="985" y="564" width="290" height="27" fill="#f4f7f3"/>
-<text x="1127" y="582" text-anchor="middle" font-size="12" fill="#84682c" font-weight="normal">返回客户澄清</text>
-<polyline points="862,1090 1210,1090 1210,365 860,365" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="900" y="1081" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">是</text>
-<rect x="1065" y="709" width="290" height="27" fill="#f4f7f3"/>
-<text x="1207" y="727" text-anchor="middle" font-size="12" fill="#84682c" font-weight="normal">登记变更并保留旧版</text>
-<polyline points="862,1380 1020,1380 1020,1235 860,1235" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="900" y="1371" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">是</text>
-<rect x="875" y="1289" width="290" height="27" fill="#f4f7f3"/>
-<text x="1017" y="1307" text-anchor="middle" font-size="12" fill="#84682c" font-weight="normal">人工协调并重新约定</text>
-<polyline points="862,1815 1020,1815 1020,1670 860,1670" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="900" y="1806" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">否</text>
-<rect x="875" y="1724" width="290" height="27" fill="#f4f7f3"/>
-<text x="1017" y="1742" text-anchor="middle" font-size="12" fill="#84682c" font-weight="normal">退回补充并核对版本</text>
-<polyline points="862,2105 1150,2105 1150,1670 860,1670" fill="none" stroke="#426d60" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="900" y="2096" text-anchor="middle" font-size="14" fill="#244d3d" font-weight="normal">否</text>
-<rect x="1005" y="1869" width="290" height="27" fill="#f4f7f3"/>
-<text x="1147" y="1887" text-anchor="middle" font-size="12" fill="#84682c" font-weight="normal">记录问题，退回反馈</text>
-<text x="640" y="2530" text-anchor="middle" font-size="16" fill="#244d3d" font-weight="normal">交接必须保留：最新版本 / 来源位置 / 未结事项 / 接收人 / 截止时间</text>
-<text x="640" y="2564" text-anchor="middle" font-size="13" fill="#728477" font-weight="normal">数据为合成演练材料；本图不包含自动候选人筛选、排名或录用。</text>
-</g></svg>
+<rect x="60" y="48" width="142" height="29" rx="6" fill="#173e52" stroke="none"/>
+<text x="78" y="69" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="start">FDE / AS-IS</text>
+<text x="60" y="134" font-size="42" fill="#173c51" font-weight="bold" text-anchor="start">招聘需求澄清与面试协同</text>
+<text x="62" y="173" font-size="20" fill="#6a8292" font-weight="normal" text-anchor="start">先明确条件，再协同面试；让每一次确认和退回都有依据。</text>
+<rect x="1710" y="58" width="310" height="46" rx="23" fill="#dfece6" stroke="none"/>
+<text x="1865" y="88" font-size="18" fill="#356d5d" font-weight="bold" text-anchor="middle">人工流程 · 不引入 AI</text>
+<text x="1710" y="140" font-size="14" fill="#788c9b" font-weight="normal" text-anchor="start">版本 2.0  /  2026.11</text>
+<rect x="60" y="208" width="365" height="72" rx="12" fill="#ffffff" stroke="none"/>
+<text x="80" y="257" font-size="34" fill="#2e6c73" font-weight="bold" text-anchor="start">03</text>
+<text x="152" y="239" font-size="18" fill="#334e61" font-weight="bold" text-anchor="start">业务阶段</text>
+<text x="152" y="263" font-size="13" fill="#8797a3" font-weight="normal" text-anchor="start">从澄清到归档</text>
+<rect x="450" y="208" width="365" height="72" rx="12" fill="#ffffff" stroke="none"/>
+<text x="470" y="257" font-size="34" fill="#2e6c73" font-weight="bold" text-anchor="start">06</text>
+<text x="542" y="239" font-size="18" fill="#334e61" font-weight="bold" text-anchor="start">判断节点</text>
+<text x="542" y="263" font-size="13" fill="#8797a3" font-weight="normal" text-anchor="start">每项均有回退分支</text>
+<rect x="840" y="208" width="365" height="72" rx="12" fill="#ffffff" stroke="none"/>
+<text x="860" y="257" font-size="34" fill="#2e6c73" font-weight="bold" text-anchor="start">06</text>
+<text x="932" y="239" font-size="18" fill="#334e61" font-weight="bold" text-anchor="start">协作角色</text>
+<text x="932" y="263" font-size="13" fill="#8797a3" font-weight="normal" text-anchor="start">具名责任与人工确认</text>
+<rect x="1230" y="208" width="790" height="72" rx="12" fill="#ffffff" stroke="none"/>
+<rect x="1254" y="231" width="28" height="18" rx="4" fill="#ffffff" stroke="#b2c6d2"/>
+<text x="1293" y="247" font-size="15" fill="#647d8e" font-weight="normal" text-anchor="start">人工处理</text>
+<polygon points="1410,227 1426,239 1410,251 1394,239" fill="#fff5de" stroke="#d2b26c"/>
+<text x="1436" y="247" font-size="15" fill="#647d8e" font-weight="normal" text-anchor="start">业务判断</text>
+<polyline points="1548,239 1588,239" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<text x="1602" y="247" font-size="15" fill="#647d8e" font-weight="normal" text-anchor="start">主路径</text>
+<polyline points="1715,239 1755,239" fill="none" stroke="#c87554" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#returnArrow)"/>
+<text x="1769" y="247" font-size="15" fill="#647d8e" font-weight="normal" text-anchor="start">返工 / 变更</text>
+<rect x="60" y="350" width="590" height="1050" rx="18" fill="#f8fafc" stroke="#dae3ea"/>
+<rect x="60" y="350" width="590" height="74" rx="16" fill="#dce9f1" stroke="none"/>
+<text x="84" y="399" font-size="30" fill="#466f92" font-weight="bold" text-anchor="start">01</text>
+<text x="150" y="385" font-size="23" fill="#29475c" font-weight="bold" text-anchor="start">需求澄清</text>
+<text x="150" y="409" font-size="13" fill="#71889b" font-weight="normal" text-anchor="start">客户 / 招聘顾问</text>
+<rect x="710" y="350" width="590" height="1050" rx="18" fill="#f8fafc" stroke="#dae3ea"/>
+<rect x="710" y="350" width="590" height="74" rx="16" fill="#e1e8f5" stroke="none"/>
+<text x="734" y="399" font-size="30" fill="#697fa9" font-weight="bold" text-anchor="start">02</text>
+<text x="800" y="385" font-size="23" fill="#29475c" font-weight="bold" text-anchor="start">面试协同</text>
+<text x="800" y="409" font-size="13" fill="#71889b" font-weight="normal" text-anchor="start">招聘顾问 / 排期协调员</text>
+<rect x="1360" y="350" width="660" height="1050" rx="18" fill="#f8fafc" stroke="#dae3ea"/>
+<rect x="1360" y="350" width="660" height="74" rx="16" fill="#dceee8" stroke="none"/>
+<text x="1384" y="399" font-size="30" fill="#4d8c7a" font-weight="bold" text-anchor="start">03</text>
+<text x="1450" y="385" font-size="23" fill="#29475c" font-weight="bold" text-anchor="start">反馈闭环</text>
+<text x="1450" y="409" font-size="13" fill="#71889b" font-weight="normal" text-anchor="start">面试官 / 质量 / 客户</text>
+<polyline points="355,523 355,567" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="355,653 355,701" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="355,829 355,877" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="355,963 355,1011" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="355,1139 355,1197" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1005,544 1005,632" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1005,718 1005,786" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1005,914 1005,997" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1665,523 1665,591" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1665,719 1665,792" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1665,878 1665,951" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1665,1079 1665,1152" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="1665,1238 1665,1277" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<polyline points="525,1240 680,1240 680,480 825,480" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<rect x="662" y="1143" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="680" y="1163" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">续</text>
+<polyline points="1175,1040 1330,1040 1330,480 1495,480" fill="none" stroke="#3c7770" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#mainArrow)"/>
+<rect x="1312" y="934" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="1330" y="954" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">续</text>
+<polyline points="535,765 590,765 590,610 525,610" fill="none" stroke="#c87554" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#returnArrow)"/>
+<text transform="translate(603 686) rotate(-90)" font-size="14" fill="#a95f43" text-anchor="middle" paint-order="stroke" stroke="#f8fafc" stroke-width="6" stroke-linejoin="round">追问缺项，区分必备与偏好</text>
+<rect x="542" y="750" width="36" height="29" rx="7" fill="#fff0e7" stroke="none"/>
+<text x="560" y="770" font-size="16" fill="#aa5d3e" font-weight="bold" text-anchor="middle">否</text>
+<polyline points="535,1075 632,1075 632,610 525,610" fill="none" stroke="#c87554" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#returnArrow)"/>
+<text transform="translate(645 930) rotate(-90)" font-size="14" fill="#a95f43" text-anchor="middle" paint-order="stroke" stroke="#f8fafc" stroke-width="6" stroke-linejoin="round">返回客户澄清</text>
+<rect x="542" y="1060" width="36" height="29" rx="7" fill="#fff0e7" stroke="none"/>
+<text x="560" y="1080" font-size="16" fill="#aa5d3e" font-weight="bold" text-anchor="middle">否</text>
+<polyline points="1185,480 1250,480 1250,313 570,313 570,610 525,610" fill="none" stroke="#c87554" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#returnArrow)"/>
+<rect x="743" y="295" width="360" height="34" rx="9" fill="#edf2f5" stroke="none"/>
+<text x="923" y="318" font-size="15" fill="#ae6448" font-weight="normal" text-anchor="middle">是 · 登记变更并保留旧版 → 重新澄清</text>
+<rect x="1192" y="465" width="36" height="29" rx="7" fill="#fff0e7" stroke="none"/>
+<text x="1210" y="485" font-size="16" fill="#aa5d3e" font-weight="bold" text-anchor="middle">是</text>
+<polyline points="1185,850 1276,850 1276,675 1175,675" fill="none" stroke="#c87554" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#returnArrow)"/>
+<text transform="translate(1289 760) rotate(-90)" font-size="14" fill="#a95f43" text-anchor="middle" paint-order="stroke" stroke="#f8fafc" stroke-width="6" stroke-linejoin="round">人工协调并重新约定</text>
+<rect x="1192" y="835" width="36" height="29" rx="7" fill="#fff0e7" stroke="none"/>
+<text x="1210" y="855" font-size="16" fill="#aa5d3e" font-weight="bold" text-anchor="middle">是</text>
+<polyline points="1845,655 1926,655 1926,480 1835,480" fill="none" stroke="#c87554" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#returnArrow)"/>
+<text transform="translate(1939 568) rotate(-90)" font-size="14" fill="#a95f43" text-anchor="middle" paint-order="stroke" stroke="#f8fafc" stroke-width="6" stroke-linejoin="round">补充反馈 / 核对版本</text>
+<rect x="1854" y="640" width="36" height="29" rx="7" fill="#fff0e7" stroke="none"/>
+<text x="1872" y="660" font-size="16" fill="#aa5d3e" font-weight="bold" text-anchor="middle">否</text>
+<polyline points="1845,1015 1992,1015 1992,480 1835,480" fill="none" stroke="#c87554" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#returnArrow)"/>
+<text transform="translate(2005 870) rotate(-90)" font-size="14" fill="#a95f43" text-anchor="middle" paint-order="stroke" stroke="#f8fafc" stroke-width="6" stroke-linejoin="round">记录问题，退回反馈</text>
+<rect x="1854" y="1000" width="36" height="29" rx="7" fill="#fff0e7" stroke="none"/>
+<text x="1872" y="1020" font-size="16" fill="#aa5d3e" font-weight="bold" text-anchor="middle">否</text>
+<rect x="185" y="437" width="340" height="86" rx="28" fill="#e5f1ec" stroke="#c9d6df"/>
+<text x="363" y="475" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">客户提出岗位需求</text>
+<text x="355" y="503" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">起点 / 客户与招聘顾问</text>
+<rect x="185" y="567" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="199" y="581" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="215" y="598" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">01</text>
+<text x="363" y="605" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">访谈并整理需求简报</text>
+<text x="355" y="633" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">林亦舟 · 招聘与用工服务顾问</text>
+<g class="decision" id="decision-D1">
+<polygon points="355,701 535,765 355,829 175,765" fill="#fff5de" stroke="#d2b26c" stroke-width="1.5"/>
+<text x="355" y="747" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">岗位信息完整且</text>
+<text x="355" y="772" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">必备 / 偏好明确？</text>
+<text x="355" y="797" font-size="12" fill="#9b865d" font-weight="normal" text-anchor="middle">D1 / 招聘顾问</text>
+</g>
+<rect x="185" y="877" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="199" y="891" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="215" y="908" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">02</text>
+<text x="363" y="915" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">确认需求、用途与版本</text>
+<text x="355" y="943" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">叶书 · 客户岗位负责人</text>
+<g class="decision" id="decision-D2">
+<polygon points="355,1011 535,1075 355,1139 175,1075" fill="#fff5de" stroke="#d2b26c" stroke-width="1.5"/>
+<text x="355" y="1057" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">客户是否</text>
+<text x="355" y="1082" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">正式确认？</text>
+<text x="355" y="1107" font-size="12" fill="#9b865d" font-weight="normal" text-anchor="middle">D2 / 客户岗位负责人</text>
+</g>
+<rect x="185" y="1197" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="199" y="1211" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="215" y="1228" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">03</text>
+<text x="363" y="1235" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">按确认版本整理材料</text>
+<text x="355" y="1263" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">招聘顾问 · 人工核对</text>
+<g class="decision" id="decision-D3">
+<polygon points="1005,416 1185,480 1005,544 825,480" fill="#fff5de" stroke="#d2b26c" stroke-width="1.5"/>
+<text x="1005" y="462" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">岗位需求是否</text>
+<text x="1005" y="487" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">发生变更？</text>
+<text x="1005" y="512" font-size="12" fill="#9b865d" font-weight="normal" text-anchor="middle">D3 / 招聘顾问 / 客户</text>
+</g>
+<rect x="835" y="632" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="849" y="646" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="865" y="663" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">04</text>
+<text x="1013" y="670" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">收集时间，拟定面试安排</text>
+<text x="1005" y="698" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">唐映秋 · 排期与培训协调员</text>
+<g class="decision" id="decision-D4">
+<polygon points="1005,786 1185,850 1005,914 825,850" fill="#fff5de" stroke="#d2b26c" stroke-width="1.5"/>
+<text x="1005" y="832" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">面试安排是否</text>
+<text x="1005" y="857" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">存在时间冲突？</text>
+<text x="1005" y="882" font-size="12" fill="#9b865d" font-weight="normal" text-anchor="middle">D4 / 排期协调员</text>
+</g>
+<rect x="835" y="997" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="849" y="1011" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="865" y="1028" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">05</text>
+<text x="1013" y="1035" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">人工确认安排并组织面试</text>
+<text x="1005" y="1063" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">协调员 / 面试官</text>
+<rect x="750" y="1177" width="500" height="150" rx="12" fill="#eef2f9" stroke="none"/>
+<text x="774" y="1209" font-size="15" fill="#7081a2" font-weight="bold" text-anchor="start">本阶段交接物</text>
+<text x="774" y="1245" font-size="20" fill="#465d7b" font-weight="bold" text-anchor="start">已确认版本 + 面试时间 + 参与人</text>
+<text x="774" y="1280" font-size="14" fill="#8291a7" font-weight="normal" text-anchor="start">发生变更或时间冲突时，先回到责任岗位确认。</text>
+<rect x="1495" y="437" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="1509" y="451" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="1525" y="468" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">06</text>
+<text x="1673" y="475" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">按岗位条件填写反馈</text>
+<text x="1665" y="503" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">面试官 · 保留证据位置</text>
+<g class="decision" id="decision-D5">
+<polygon points="1665,591 1845,655 1665,719 1485,655" fill="#fff5de" stroke="#d2b26c" stroke-width="1.5"/>
+<text x="1665" y="637" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">反馈完整且</text>
+<text x="1665" y="662" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">关联正确版本？</text>
+<text x="1665" y="687" font-size="12" fill="#9b865d" font-weight="normal" text-anchor="middle">D5 / 质量复核</text>
+</g>
+<rect x="1495" y="792" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="1509" y="806" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="1525" y="823" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">07</text>
+<text x="1673" y="830" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">质量与客户复核</text>
+<text x="1665" y="858" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">傅景 / 叶书 · 人工确认</text>
+<g class="decision" id="decision-D6">
+<polygon points="1665,951 1845,1015 1665,1079 1485,1015" fill="#fff5de" stroke="#d2b26c" stroke-width="1.5"/>
+<text x="1665" y="997" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">复核是否</text>
+<text x="1665" y="1022" font-size="19" fill="#70572a" font-weight="bold" text-anchor="middle">通过？</text>
+<text x="1665" y="1047" font-size="12" fill="#9b865d" font-weight="normal" text-anchor="middle">D6 / 质量与客户</text>
+</g>
+<rect x="1495" y="1152" width="340" height="86" rx="13" fill="#ffffff" stroke="#c9d6df"/>
+<rect x="1509" y="1166" width="32" height="24" rx="6" fill="#e9eff5" stroke="none"/>
+<text x="1525" y="1183" font-size="12" fill="#61788c" font-weight="bold" text-anchor="middle">08</text>
+<text x="1673" y="1190" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">归档版本、反馈与责任</text>
+<text x="1665" y="1218" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">唐映秋 · 资料接收与交接</text>
+<rect x="1495" y="1277" width="340" height="86" rx="28" fill="#e5f1ec" stroke="#c9d6df"/>
+<text x="1673" y="1315" font-size="21" fill="#213d4e" font-weight="bold" text-anchor="middle">资料交接完成</text>
+<text x="1665" y="1343" font-size="14" fill="#708594" font-weight="normal" text-anchor="middle">终点 / 录用另由人工决策</text>
+<rect x="367" y="837" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="385" y="857" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">是</text>
+<rect x="367" y="1149" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="385" y="1169" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">是</text>
+<rect x="1017" y="563" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="1035" y="583" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">否</text>
+<rect x="1017" y="933" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="1035" y="953" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">否</text>
+<rect x="1677" y="732" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="1695" y="752" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">是</text>
+<rect x="1677" y="1095" width="36" height="29" rx="7" fill="#e0efea" stroke="none"/>
+<text x="1695" y="1115" font-size="16" fill="#296f60" font-weight="bold" text-anchor="middle">是</text>
+<text x="90" y="1360" font-size="14" fill="#71899b" font-weight="normal" text-anchor="start">交接物：已确认岗位简报 / 条件分类 / 来源位置</text>
+<rect x="60" y="1430" width="1960" height="102" rx="15" fill="#183e53" stroke="none"/>
+<text x="88" y="1467" font-size="21" fill="#ffffff" font-weight="bold" text-anchor="start">每次交接都要留下依据</text>
+<text x="88" y="1504" font-size="18" fill="#c3d7e2" font-weight="normal" text-anchor="start">最新版本   /   原文来源   /   未结事项   /   接收人   /   截止时间</text>
+<text x="2000" y="1468" font-size="14" fill="#bdd1dc" font-weight="normal" text-anchor="end">资料性质：FDE 六角色合成训练</text>
+<text x="2000" y="1503" font-size="14" fill="#bdd1dc" font-weight="normal" text-anchor="end">不自动筛选、排名或录用候选人；非企业正式制度。</text>
+</g>
+</svg>

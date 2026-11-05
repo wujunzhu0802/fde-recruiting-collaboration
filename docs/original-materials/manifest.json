@@ -1,0 +1,26 @@
+{
+  "sourceURL": "https://fde-discovery-lab-67046.app.workbuddy.host/group-training?project=fsg-recruiting",
+  "templateURL": "https://fde-discovery-lab-67046.app.workbuddy.host/fde-flow.js",
+  "templateFunction": "renderCaseInformation",
+  "exportMode": "平台公开字段与原有四份文档模板的等价Markdown导出",
+  "sourceSnapshot": "../evidence/original-materials-source.json",
+  "sourceSHA256": "c373340c2b74a06b11fe4d21a7f8d43f9b547da111dc6495d6a4e9c6304e6237",
+  "documents": [
+    {
+      "file": "01-客户简报.md",
+      "sha256": "a16286c494114742690ecf571dbc2106a63a9b103b77d199ca88ed3fa4c0fc65"
+    },
+    {
+      "file": "02-现状信息请求表.md",
+      "sha256": "37287c8f56396701c8f41545640ed8db0ca7168674936d0f2310e62b1e60fa88"
+    },
+    {
+      "file": "03-业务发现访谈问题库.md",
+      "sha256": "f815af98fbb773b2f230f7f88df7ce9865ffa0c5f52731e59ae4ef6a0410f3ab"
+    },
+    {
+      "file": "04-利益相关者资料与分工.md",
+      "sha256": "0ff4cb581197c03fc2c4ca8d451a76923e27314b454c754c430c4c58fc3af322"
+    }
+  ]
+}

@@ -2,6 +2,10 @@
 
 依据：六角色合成访谈，原始记录见 [interviews.json](evidence/interviews.json)。流程为对访谈的分析还原，非上海外服真实制度。菱形均为人工判断或确定性规则检查。
 
+视觉版2.0：按需求澄清、面试协同、反馈闭环分区，实线表示主路径、橙色虚线表示返工或变更。[PNG](diagrams/as-is-no-ai.png) / [可编辑SVG](diagrams/as-is-no-ai.svg) / [离线预览HTML](diagrams/as-is-no-ai.html)。HTML内嵌完整SVG，下载后可直接打开，支持缩放、适应窗口、突出判断点及导出。
+
+生成SVG与HTML：`python scripts/draw_flow.py`。生成PNG：安装可选构建工具 `npm install --no-save @resvg/resvg-js` 后执行 `node scripts/render_diagrams.cjs`；也可将已有的resvg模块路径作为参数传入。业务原型运行不依赖此构建工具。
+
 ![不引入 AI 的现状业务流程](diagrams/as-is-no-ai.svg)
 
 ## 现状流程（带判断及返工）
