@@ -16,7 +16,7 @@
 
 - [访谈原文与36事实台账](interviews-and-evidence.md)
 - [原始在线采集JSON](evidence/interviews.json)
-- [确认型虚拟提问原文](evidence/virtual-reviews.json)
+- [9次验收、评审、交接与事件问答](virtual-reviews.md) / [原始JSON与调用审计](evidence/virtual-reviews.json)
 - [不引入AI且含判断选择的流程图](flowcharts.md) / [PNG](diagrams/as-is-no-ai.png) / [SVG](diagrams/as-is-no-ai.svg)
 - [需求追溯](requirements.md)、[架构与契约](architecture-and-contract.md)、[ROI假设](roi.md)
 - [试点与UAT脚本](pilot-uat.md)、[发布恢复和交接手册](release-runbook.md)、[运营与事件复盘](operations.md)

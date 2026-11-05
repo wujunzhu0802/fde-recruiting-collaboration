@@ -255,5 +255,71 @@
       }
     },
     "real_customer_signoff": false
+  },
+  {
+    "role": "r5",
+    "purpose": "09-2 incident",
+    "question": "客户投诉旧版证书偏好仍被当成硬条件时，先登记哪些问题与版本？这是合成事件演练。",
+    "reply": "先说明：这是合成演练事件，我按投诉登记规则处理，不把它当成真实客户投诉定性。\n\n登记时我只记三样：客户原始表述（哪份简报、哪个岗位、把旧版证书偏好当成了硬条件）、当时使用的简报版本号与岗位版本、客户期望恢复成什么样。不先替客户或模型推测意图，也不先定性成必备与偏好混写 [fsg-recruiting-f54]。\n\n版本这块，同一份简报的数量、状态、截止时间要拿原始记录和交接方核对，不能各拿一张汇总表比对 [fsg-recruiting-f53]，否则我登记的版本本身就不干净。\n\n演练里旧版证书偏好具体出现在哪几份简报、涉及几个岗位，尚未核实，需要林亦舟、秦芮从原始记录取数。我的边界是客户体验与协作反馈，投诉定性和审核口径归傅景，交接责任清单归唐映秋。建议演练后按“登记—版本比对—复盘”走一轮，这是待验证假设，需顾明岚拍板。",
+    "audit": {
+      "provider": "DeepSeek",
+      "model": "deepseek-flash",
+      "requestId": "c53f1ef9-3733-47ca-9893-f6ced15bc3c6",
+      "at": "2026-11-05T06:19:06.474Z",
+      "durationMs": 2369,
+      "usage": {
+        "prompt_tokens": 2736,
+        "completion_tokens": 254,
+        "total_tokens": 2990
+      },
+      "attemptCount": 1,
+      "selection": {
+        "provider": "DeepSeek",
+        "model": "deepseek-flash",
+        "requestId": "2c2d3c85-82cb-4759-af57-082565623939",
+        "at": "2026-11-05T06:19:04.105Z",
+        "durationMs": 841,
+        "usage": {
+          "prompt_tokens": 2259,
+          "completion_tokens": 27,
+          "total_tokens": 2286
+        },
+        "attemptCount": 1
+      }
+    },
+    "real_customer_signoff": false
+  },
+  {
+    "role": "r4",
+    "purpose": "09-2 change control",
+    "question": "旧版证书偏好事件中，修订后应保留什么审计和人工复核记录？这是合成变更演练。",
+    "reply": "这个场景我只能按现有依据说两条，其余标待核实。第一，修订后要保留原始版本、修订原因与确认人，练习结束按项目约定删除虚构个人字段 [fsg-recruiting-f43]；也就是说“改前是什么、为什么改、谁确认”这条链不能断，否则我复核时无法判断必备与偏好是否在修订中被重新混写。第二，审计要能看到谁查过简报、用的是哪个版本、提了什么建议、谁确认，访问记录不能只留最终摘要 [fsg-recruiting-f45]；对应到面试反馈无法对照需求这个痛点，靠“用的是哪个版本”才能卡住反馈对错版本。\n\n人工复核记录方面，尚未核实的是：修订是否逐版留痕、复核结论是否需逐条对应修订项、删除虚构字段时原始版本是同步脱敏还是整份删除。这些不定，我无法签复核结论。建议由顾明岚定试点口径、秦芮确认只读集成能否支撑访问记录。需要你澄清：这次修订是单点更正还是整份重发？两者留痕要求不同。",
+    "audit": {
+      "provider": "DeepSeek",
+      "model": "deepseek-flash",
+      "requestId": "9aeb6746-91b9-4eef-bf68-d2517f5dfaaf",
+      "at": "2026-11-05T06:19:13.163Z",
+      "durationMs": 2356,
+      "usage": {
+        "prompt_tokens": 2776,
+        "completion_tokens": 260,
+        "total_tokens": 3036
+      },
+      "attemptCount": 1,
+      "selection": {
+        "provider": "DeepSeek",
+        "model": "deepseek-flash",
+        "requestId": "6320cd63-1ba2-4168-8f66-255958e562f6",
+        "at": "2026-11-05T06:19:10.807Z",
+        "durationMs": 1108,
+        "usage": {
+          "prompt_tokens": 2285,
+          "completion_tokens": 48,
+          "total_tokens": 2333
+        },
+        "attemptCount": 1
+      }
+    },
+    "real_customer_signoff": false
   }
 ]
