@@ -1,0 +1,43 @@
+{
+  "project": {
+    "id": "fsg-recruiting",
+    "name": "招聘需求澄清与面试协同",
+    "company": "上海外服（集团）有限公司",
+    "kind": "project",
+    "industry": "招聘及灵活用工",
+    "discoveryHref": "/group-lab?project=fsg-recruiting&moduleId=fsg-recruiting",
+    "sector": "招聘及灵活用工",
+    "summary": "围绕“招聘需求澄清与面试协同”开展业务挖掘、现场调研、需求定义与后续交付训练。",
+    "accent": "green",
+    "library": "fsg",
+    "moduleId": "fsg-recruiting",
+    "publicResearch": null,
+    "problemProposers": {
+      "mode": "固定角色",
+      "primary": {
+        "id": "fsg-recruiting-r1",
+        "name": "林亦舟",
+        "role": "招聘与用工服务顾问",
+        "kind": "主问题提出人"
+      },
+      "co": [
+        {
+          "id": "fsg-recruiting-r0",
+          "name": "顾明岚",
+          "role": "服务业务负责人",
+          "kind": "共同提出人"
+        }
+      ],
+      "basis": "依据角色开场定位：直接描述一线痛点者与负责业务目标和范围者"
+    }
+  },
+  "context": {
+    "object": "招聘需求澄清与面试协同",
+    "problem": "【合成演练】必备条件与偏好条件混写，面试反馈无法对照需求。请访谈业务、现场、交接、技术、质量与客户六个视角，核实具体问题、证据与试点范围。",
+    "baseline": "记录本场景的时效、返工和复核成本，基线须按样本验证",
+    "roles": "顾明岚（服务业务负责人）、林亦舟（招聘与用工服务顾问）、唐映秋（排期与培训协调员）、秦芮（数据与系统工程师）、傅景（质量复核负责人）、叶书（客户岗位负责人）",
+    "boundary": "只读核对与人工交接；合成训练不代表真实授权、业务执行或客户验收",
+    "sample": "上海外服（集团）有限公司的一次具体事件；记录场景与访谈证据编号"
+  },
+  "source": "公开业务方向 · 合成演练"
+}

@@ -1,0 +1,6 @@
+{
+  "brief": {"job_id":"JOB-DEMO-01","version":2,"owner":"客户岗位负责人","location":"上海","headcount":2,"source_id":"BRIEF-DEMO-V2","conditions":[{"id":"C01","kind":"must","text":"能完成岗位基础数据核对","source":"V2 第1页第2段"},{"id":"C02","kind":"preferred","text":"相关证书为偏好，不作为硬条件","source":"V2 第1页第3段"}]},
+  "feedback":[{"brief_version":2,"condition_id":"C01","evidence_ref":"面试记录 DEMO 第2段"}],
+  "schedule":[{"interviewer_id":"I-DEMO-01","start":"2026-11-10T10:00:00+08:00","end":"2026-11-10T10:30:00+08:00"}],
+  "adapter_mode":"stub","model_mode":"disabled"
+}

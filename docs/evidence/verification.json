@@ -1,0 +1,79 @@
+{
+  "at": "2026-11-05T06:11:57.832382+00:00",
+  "mode": "local deterministic + synthetic interface stub",
+  "repetitions": [
+    {
+      "repeat": 1,
+      "exit_code": 0,
+      "log": "test_ambiguous_and_source (test_workflow.WorkflowTests.test_ambiguous_and_source) ... ok\ntest_blocker_cannot_confirm (test_workflow.WorkflowTests.test_blocker_cannot_confirm) ... ok\ntest_boundary_numbers (test_workflow.WorkflowTests.test_boundary_numbers) ... ok\ntest_concurrent_duplicate (test_workflow.WorkflowTests.test_concurrent_duplicate) ... ok\ntest_conflict_and_terminal (test_workflow.WorkflowTests.test_conflict_and_terminal) ... ok\ntest_duplicate_condition (test_workflow.WorkflowTests.test_duplicate_condition) ... ok\ntest_external_contract_and_real_model (test_workflow.WorkflowTests.test_external_contract_and_real_model) ... ok\ntest_idempotency_and_collision (test_workflow.WorkflowTests.test_idempotency_and_collision) ... ok\ntest_normal_human_review (test_workflow.WorkflowTests.test_normal_human_review) ... ok\ntest_permissions (test_workflow.WorkflowTests.test_permissions) ... ok\ntest_preference_never_becomes_hard_condition (test_workflow.WorkflowTests.test_preference_never_becomes_hard_condition) ... ok\ntest_prompt_injection_is_data (test_workflow.WorkflowTests.test_prompt_injection_is_data) ... ok\ntest_required_fields (test_workflow.WorkflowTests.test_required_fields) ... ok\ntest_schedule_overlap_and_adjacency (test_workflow.WorkflowTests.test_schedule_overlap_and_adjacency) ... ok\ntest_stale_feedback (test_workflow.WorkflowTests.test_stale_feedback) ... ok\ntest_timeout_and_degrade (test_workflow.WorkflowTests.test_timeout_and_degrade) ... ok\ntest_timezone_required (test_workflow.WorkflowTests.test_timezone_required) ... ok\ntest_unknown_feedback (test_workflow.WorkflowTests.test_unknown_feedback) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.923s\n\nOK\n"
+    },
+    {
+      "repeat": 2,
+      "exit_code": 0,
+      "log": "test_ambiguous_and_source (test_workflow.WorkflowTests.test_ambiguous_and_source) ... ok\ntest_blocker_cannot_confirm (test_workflow.WorkflowTests.test_blocker_cannot_confirm) ... ok\ntest_boundary_numbers (test_workflow.WorkflowTests.test_boundary_numbers) ... ok\ntest_concurrent_duplicate (test_workflow.WorkflowTests.test_concurrent_duplicate) ... ok\ntest_conflict_and_terminal (test_workflow.WorkflowTests.test_conflict_and_terminal) ... ok\ntest_duplicate_condition (test_workflow.WorkflowTests.test_duplicate_condition) ... ok\ntest_external_contract_and_real_model (test_workflow.WorkflowTests.test_external_contract_and_real_model) ... ok\ntest_idempotency_and_collision (test_workflow.WorkflowTests.test_idempotency_and_collision) ... ok\ntest_normal_human_review (test_workflow.WorkflowTests.test_normal_human_review) ... ok\ntest_permissions (test_workflow.WorkflowTests.test_permissions) ... ok\ntest_preference_never_becomes_hard_condition (test_workflow.WorkflowTests.test_preference_never_becomes_hard_condition) ... ok\ntest_prompt_injection_is_data (test_workflow.WorkflowTests.test_prompt_injection_is_data) ... ok\ntest_required_fields (test_workflow.WorkflowTests.test_required_fields) ... ok\ntest_schedule_overlap_and_adjacency (test_workflow.WorkflowTests.test_schedule_overlap_and_adjacency) ... ok\ntest_stale_feedback (test_workflow.WorkflowTests.test_stale_feedback) ... ok\ntest_timeout_and_degrade (test_workflow.WorkflowTests.test_timeout_and_degrade) ... ok\ntest_timezone_required (test_workflow.WorkflowTests.test_timezone_required) ... ok\ntest_unknown_feedback (test_workflow.WorkflowTests.test_unknown_feedback) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.976s\n\nOK\n"
+    },
+    {
+      "repeat": 3,
+      "exit_code": 0,
+      "log": "test_ambiguous_and_source (test_workflow.WorkflowTests.test_ambiguous_and_source) ... ok\ntest_blocker_cannot_confirm (test_workflow.WorkflowTests.test_blocker_cannot_confirm) ... ok\ntest_boundary_numbers (test_workflow.WorkflowTests.test_boundary_numbers) ... ok\ntest_concurrent_duplicate (test_workflow.WorkflowTests.test_concurrent_duplicate) ... ok\ntest_conflict_and_terminal (test_workflow.WorkflowTests.test_conflict_and_terminal) ... ok\ntest_duplicate_condition (test_workflow.WorkflowTests.test_duplicate_condition) ... ok\ntest_external_contract_and_real_model (test_workflow.WorkflowTests.test_external_contract_and_real_model) ... ok\ntest_idempotency_and_collision (test_workflow.WorkflowTests.test_idempotency_and_collision) ... ok\ntest_normal_human_review (test_workflow.WorkflowTests.test_normal_human_review) ... ok\ntest_permissions (test_workflow.WorkflowTests.test_permissions) ... ok\ntest_preference_never_becomes_hard_condition (test_workflow.WorkflowTests.test_preference_never_becomes_hard_condition) ... ok\ntest_prompt_injection_is_data (test_workflow.WorkflowTests.test_prompt_injection_is_data) ... ok\ntest_required_fields (test_workflow.WorkflowTests.test_required_fields) ... ok\ntest_schedule_overlap_and_adjacency (test_workflow.WorkflowTests.test_schedule_overlap_and_adjacency) ... ok\ntest_stale_feedback (test_workflow.WorkflowTests.test_stale_feedback) ... ok\ntest_timeout_and_degrade (test_workflow.WorkflowTests.test_timeout_and_degrade) ... ok\ntest_timezone_required (test_workflow.WorkflowTests.test_timezone_required) ... ok\ntest_unknown_feedback (test_workflow.WorkflowTests.test_unknown_feedback) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 1.044s\n\nOK\n"
+    }
+  ],
+  "http_checks": [
+    {
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/app.js",
+      "status": 200
+    },
+    {
+      "path": "/style.css",
+      "status": 200
+    },
+    {
+      "path": "/does-not-exist",
+      "status": 404
+    },
+    {
+      "case": "unauthenticated",
+      "status": 401
+    },
+    {
+      "case": "unauthorized role",
+      "status": 403
+    },
+    {
+      "case": "HTTP end-to-end human review",
+      "status": 200
+    }
+  ],
+  "recovery": {
+    "mode": "local synthetic database recovery",
+    "before_count": 2,
+    "restored_count": 1,
+    "restored_state": "confirmed",
+    "result": "passed",
+    "production_release": false
+  },
+  "source_sha256": {
+    "src/engine.py": "cde977ccd342899f965eb17505e2b30a811fdacb5544ecbee59d71919dacc26d",
+    "src/server.py": "15022b6ee6ab730e3f10c7fdd088101907145637049539fab790259dd2d2bf36",
+    "src/store.py": "e45a2a1d365a293929e655dff1072e3e48a0676fd9cff7c673bb49d29fe8a4c8",
+    "src/__init__.py": "a0be2baa7626d43568f478d363942f191b9e44dbc15289b356b3ee1889661ecd",
+    "src/web/app.js": "662d5279d8491ff55357e66ee9199912ff89a8cdc4bf38689d7ca7e6ab9f1ace",
+    "src/web/index.html": "a0f8f08945f08da5799cd851bb663a18736c14897f4e7513fde4b2c939460698",
+    "src/web/style.css": "d7115df5f94d451c6421c8e71f0c6806524698226d6111c246cce833295e542e",
+    "tests/test_workflow.py": "1f3218f47cad4fd8b874528d3fe8bc2b9fd00fa4c4d477f119bef11c7f106104"
+  },
+  "skipped": [
+    "真实模型调用",
+    "真实企业系统集成",
+    "真实用户UAT",
+    "真实上线与真实收益核验"
+  ]
+}
