@@ -1,8 +1,14 @@
-name: Reproducible prototype checks (template)
+name: Reproducible prototype checks (prototype + SaaS MVP)
+
+# 复制本文件内容到 .github/workflows/verify.yml 即可启用云端 CI。
+# 注意：创建/修改 .github/workflows/ 下的文件需要带 workflow scope 的令牌；
+# 当前仓库登录缺少该权限，因此先以模板形式维护（见 README 说明）。
 on: [push, pull_request]
+
 jobs:
   test:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
@@ -14,5 +20,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: python scripts/verify.py
-      - run: node --check src/web/app.js
+
+      # 新增：安装 SaaS MVP 依赖（原模板缺少这一步）
+      - name: Install SaaS MVP dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r mvp/requirements.txt pytest
+
+      # 原有：确定性规则原型验证
+      - name: Deterministic prototype checks
+        run: python scripts/verify.py
+
+      # 新增：SaaS MVP 的 19 项测试（权限隔离/额度/版本/护栏/降级）
+      - name: SaaS MVP tests
+        run: python -m pytest mvp/test_mvp.py -q
+
+      # 原有：前端语法检查
+      - name: Frontend syntax check
+        run: node --check src/web/app.js
