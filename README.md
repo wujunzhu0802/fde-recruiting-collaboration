@@ -2,7 +2,7 @@
 
 **2026-11-19新增 SaaS MVP**：[五项交付说明](docs/MVP交付说明.md)。新模块位于 `mvp/`，包括 FastAPI、Agent Harness、RAG与LLM适配器、Wiki及关系图谱、后端租户/角色/层级权限。实际部署状态见 [部署记录](docs/mvp-deployment.json)。旧版无AI流程与规则原型保留作为现状基线；新MVP默认未配置LLM时明确采用原文摘录。
 
-[打开MVP临时演示](https://distinguished-private-memo-signatures.trycloudflare.com) · [FastAPI接口文档](https://distinguished-private-memo-signatures.trycloudflare.com/docs)。可自行注册组织。此地址依赖本机服务和隧道进程，不保证长期在线；生产云部署和真实LLM配置尚未完成。
+[打开MVP临时演示](https://apparent-suits-korea-anime.trycloudflare.com) · [FastAPI接口文档](https://apparent-suits-korea-anime.trycloudflare.com/docs)。可自行注册组织。此地址依赖本机服务和隧道进程，不保证长期在线；生产云部署和真实LLM配置尚未完成。
 
 FDE 九阶段实验项目，面向 `fsg-recruiting` 合成训练场景。完成六角色在线访谈、九阶段共27项任务的分析与交付文档，并实现**不接入 AI 的确定性规则原型**。
 
