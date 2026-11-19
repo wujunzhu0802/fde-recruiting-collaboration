@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-19T06:02:29.320637+00:00",
+  "exit_code": 0,
+  "mode": "FastAPI ASGI integration + SQLite + local TF-IDF RAG; provider success/failure use mocks",
+  "log": "test_authentication_not_role_header (mvp.test_mvp.MVPTests.test_authentication_not_role_header) ... ok\ntest_basic_cannot_retrieve_pro (mvp.test_mvp.MVPTests.test_basic_cannot_retrieve_pro) ... ok\ntest_graph_contains_only_authorized_nodes (mvp.test_mvp.MVPTests.test_graph_contains_only_authorized_nodes) ... ok\ntest_grounded_mode_has_trace_and_citations (mvp.test_mvp.MVPTests.test_grounded_mode_has_trace_and_citations) ... ok\ntest_harness_guardrail (mvp.test_mvp.MVPTests.test_harness_guardrail) ... ok\ntest_login_rate_limit (mvp.test_mvp.MVPTests.test_login_rate_limit) ... ok\ntest_logout_revokes_bearer (mvp.test_mvp.MVPTests.test_logout_revokes_bearer) ... ok\ntest_origin_protection (mvp.test_mvp.MVPTests.test_origin_protection) ... ok\ntest_password_and_session_storage (mvp.test_mvp.MVPTests.test_password_and_session_storage) ... ok\ntest_provider_success_and_invalid_citation_fallback (mvp.test_mvp.MVPTests.test_provider_success_and_invalid_citation_fallback) ... ok\ntest_provider_timeout_degrades (mvp.test_mvp.MVPTests.test_provider_timeout_degrades) ... ok\ntest_quota_and_run_trace (mvp.test_mvp.MVPTests.test_quota_and_run_trace) ... ok\ntest_registration_cannot_choose_privilege (mvp.test_mvp.MVPTests.test_registration_cannot_choose_privilege) ... ok\ntest_saas_admin_plan_and_live_session_refresh (mvp.test_mvp.MVPTests.test_saas_admin_plan_and_live_session_refresh) ... ok\ntest_tenant_admin_cannot_escalate (mvp.test_mvp.MVPTests.test_tenant_admin_cannot_escalate) ... ok\ntest_tenant_rag_isolation (mvp.test_mvp.MVPTests.test_tenant_rag_isolation) ... ok\ntest_tenant_wiki_edit_denied (mvp.test_mvp.MVPTests.test_tenant_wiki_edit_denied) ... ok\ntest_viewer_cannot_ask_or_write (mvp.test_mvp.MVPTests.test_viewer_cannot_ask_or_write) ... ok\ntest_wiki_version_conflict (mvp.test_mvp.MVPTests.test_wiki_version_conflict) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 14.069s\n\nOK\n",
+  "real_llm_executed": false,
+  "source_sha256": {
+    "mvp/app.py": "8d1322663351f56e99a85ca59de56166b58622bc9ee1e282ceab367b27f0566e",
+    "mvp/db.py": "6c49e266664cc226a1d9ee4af5ee9782b1fd773c7aa273acef14089e6b460426",
+    "mvp/evaluate.py": "0a8055233fb9561ba52cc7cd789847027eb1ae04e0b5efec3cc42d8b6959ab6f",
+    "mvp/rag.py": "a5aeec19ea0ff986cab8ee1dc9423a452d23dbef9335614a1c8671dfabe8515e",
+    "mvp/test_mvp.py": "ae68f0f312eb4bc2908200fd8339d7c13bd553fcf77316427d4bfd02cff0cf81",
+    "mvp/__init__.py": "222f268fbd94e0c6d99f5a0ac67ed13151ce22c7b84376b6218ac30b5810ec3d",
+    "mvp/web/app.js": "0efb6059627c9cd87c73a13e2cf456c7bc16d84d74a0c8f32d716aa31daeb72f",
+    "mvp/web/index.html": "8922af0bede460baffc0e68ebd6e10ed6ff3fe3282da7f3a33f94a68cc6a8ea1",
+    "mvp/web/style.css": "95b159e582c59c6fbdacff2131a8823837463b10103b92aad0581b044041fd62"
+  }
+}

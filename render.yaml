@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: recruiting-knowledge-mvp
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: MVP_DB
+        value: /app/runtime/mvp/data.sqlite
+      - key: MVP_SECURE_COOKIES
+        value: "1"
+      - key: MVP_ADMIN_PASSWORD
+        sync: false
+      - key: MVP_LLM_API_KEY
+        sync: false
+    disk:
+      name: recruiting-data
+      mountPath: /app/runtime
+      sizeGB: 1

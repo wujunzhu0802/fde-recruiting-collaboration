@@ -1,0 +1,9 @@
+.git
+runtime
+**/runtime
+**/.env
+**/.env.*
+**/__pycache__
+docs
+node_modules
+.venv

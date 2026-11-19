@@ -1,0 +1,70 @@
+{
+  "url": "https://distinguished-private-memo-signatures.trycloudflare.com",
+  "api_docs": "https://distinguished-private-memo-signatures.trycloudflare.com/docs",
+  "health": "https://distinguished-private-memo-signatures.trycloudflare.com/api/health",
+  "verified_at": "2026-11-19T06:04:10.610949+00:00",
+  "temporary": true,
+  "depends_on_local_process": true,
+  "llm_configured": false,
+  "deployment": "Real FastAPI/Uvicorn backend, Cloudflare Quick Tunnel HTTPS, synthetic-data demonstration",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/assets/app.js",
+      "status": 200
+    },
+    {
+      "path": "/assets/style.css",
+      "status": 200
+    },
+    {
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "path": "/docs",
+      "status": 200
+    },
+    {
+      "path": "/openapi.json",
+      "status": 200
+    },
+    {
+      "path": "unauthenticated wiki",
+      "status": 401
+    },
+    {
+      "path": "signup isolated organization",
+      "status": 201
+    },
+    {
+      "path": "authorized basic wiki",
+      "status": 200,
+      "pages": 4
+    },
+    {
+      "path": "RAG with citations",
+      "status": 200,
+      "mode": "extractive",
+      "sources": 3
+    },
+    {
+      "path": "authorized knowledge graph",
+      "status": 200,
+      "nodes": 13
+    },
+    {
+      "path": "tenant owner cannot access SaaS admin",
+      "status": 403
+    },
+    {
+      "path": "logout revocation",
+      "status": 401
+    }
+  ],
+  "long_term_cloud_deployment": false,
+  "credentials_included": false
+}
